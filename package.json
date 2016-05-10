@@ -1,0 +1,40 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesse-robertson/game-night.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesse-robertson/game-night/issues"
+  },
+  "homepage": "https://github.com/jesse-robertson/game-night#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-bootstrap": "^0.29.3",
+    "react-dom": "^15.0.1",
+    "react-facebook": "^1.0.3",
+    "react-fontawesome": "^0.3.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.16.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

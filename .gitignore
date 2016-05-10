@@ -1,0 +1,6 @@
+client/node_modules
+client/dist
+
+.c9
+
+node_modules
