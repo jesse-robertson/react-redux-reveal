@@ -37,8 +37,7 @@ class RevealProvider extends React.Component {
         }
     }
     
-    componentDidMount() {
-        
+    generateCoordinateLookupTable() {
         this.lookupTable = [];
         getChildren(this).map( (section) =>  
             sectionToSlideColumnArray(section)
@@ -53,6 +52,10 @@ class RevealProvider extends React.Component {
                 } while (indexf++ < fragmentCount-1)
             });
         });
+    }
+    
+    componentDidMount() {
+        this.generateCoordinateLookupTable();
         
         Reveal.initialize({
             keyboard: false,
